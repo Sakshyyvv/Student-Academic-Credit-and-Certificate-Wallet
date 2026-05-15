@@ -1,0 +1,11 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "app-logo",
+      "description": "SACC Wallet Official Logo",
+      "imageUrl": "https://picsum.photos/seed/sacc-wallet-logo/400/400",
+      "imageHint": "graduation wallet logo"
+    }
+  ]
+}
