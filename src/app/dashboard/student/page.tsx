@@ -1,3 +1,4 @@
+
 "use client"
 
 import { useState, useEffect, useRef, useMemo } from 'react';
@@ -35,7 +36,7 @@ export default function StudentDashboard() {
   useEffect(() => {
     const sessionEmail = getSessionEmail();
     if (!sessionEmail) {
-      router.push('/');
+      router.push('/login');
       return;
     }
     
@@ -152,7 +153,7 @@ export default function StudentDashboard() {
 
   const handleLogout = () => {
     logoutSession();
-    router.push('/');
+    router.push('/login');
   };
 
   if (!isLoaded || !student || !results) return null;

@@ -1,3 +1,4 @@
+
 "use client"
 
 import { useState, useEffect, useMemo } from 'react';
@@ -68,13 +69,13 @@ export default function AdminDashboard() {
           userName={MOCK_ADMIN.name} 
           activeTab={activeTab}
           setActiveTab={setActiveTab}
-          onLogout={() => window.location.href = '/'}
+          onLogout={() => window.location.href = '/login'}
         />
         
         <main className="flex-1 overflow-y-auto p-8">
           <div className="max-w-6xl mx-auto space-y-8">
             <header>
-              <h1 className="text-4xl font-black font-headline tracking-tight">Admin Console</h1>
+              <h1 className="text-4xl font-black font-headline tracking-tight text-foreground">Admin Console</h1>
               <p className="text-muted-foreground mt-1 text-lg">Oversee PDC evaluation and certification flows</p>
             </header>
 

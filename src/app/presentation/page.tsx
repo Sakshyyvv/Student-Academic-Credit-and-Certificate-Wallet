@@ -144,7 +144,7 @@ export default function PresentationPage() {
             
             <div className="flex gap-4 pt-4">
               {currentSlide === SLIDES.length - 1 ? (
-                <Button size="lg" className="h-14 px-8 text-lg font-black gap-2 group" onClick={() => router.push('/')}>
+                <Button size="lg" className="h-14 px-8 text-lg font-black gap-2 group" onClick={() => router.push('/login')}>
                   Launch Platform <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               ) : (
